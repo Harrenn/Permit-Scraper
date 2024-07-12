@@ -159,7 +159,7 @@ def run():
     service = build('sheets', 'v4', credentials=creds)
 
     # ID of your Google Sheet
-    SHEET_ID = '1fkmn5ChYD4owUn4A6BmENubPrI0Srtw1E41vKLiUpe0'
+    SHEET_ID = 'INSERT SHEET HERE' # example 'harekkgaloud43er5jahreng34'
 
     # Clear existing data (optional)
     clear_request = service.spreadsheets().values().clear(spreadsheetId=SHEET_ID, range='Sheet1')
