@@ -25,7 +25,7 @@ This script scrapes permit application data from the Montgomery County permittin
 
 ```bash
 git clone https://github.com/Harrenn/Permit-Scraper.git
-cd <repository_directory>
+cd Permit-Scraper
 ```
 
 2.  **Install required Python packages:**
@@ -66,13 +66,8 @@ creds = Credentials.from_service_account_file('/path/to/your/credentials.json', 
 Run the script using:
 
 ```bash
-python your_script.py
-```
-
-Example:
-
-```bash
-python permit_scraper.py
+python3 1stScript.py
+python3 2ndScript.py
 ```
 
 ## Script Overview
