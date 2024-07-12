@@ -24,7 +24,7 @@ This script scrapes permit application data from the Montgomery County permittin
 1.  **Clone the repository:**
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Harrenn/Permit-Scraper.git
 cd <repository_directory>
 ```
 
